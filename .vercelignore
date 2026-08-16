@@ -1,0 +1,10 @@
+# Jangan upload dependency & cache besar ke Vercel — akan di-install & build di sisi Vercel
+node_modules
+**/node_modules
+.turbo
+**/.turbo
+.next
+**/.next
+.git
+.vercel
+**/*.tsbuildinfo
